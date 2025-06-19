@@ -59,12 +59,12 @@ const Hero = () => {
           {/* Left: Image */}
           {/* Left: Circular Image */}
 <div className="flex justify-center md:justify-start">
-  <img
-    src="/me.png"
-    alt="Vaibhav Mehta"
-    className="w-[280px] h-[280px] object-cover rounded-full shadow-lg border-4 border-primaryPurple"
-    style={{ objectPosition: "top" }}
-  />
+<img
+  src="/me.jpg"
+  alt="Vaibhav Mehta"
+  className="w-[280px] h-[280px] object-cover object-[center_-90px] rounded-full shadow-lg border-4 border-primaryPurple"
+/>
+
 </div>
 
           {/* Right: Headings */}
